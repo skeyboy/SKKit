@@ -15,6 +15,11 @@
 		533C2B44212BB5A50052CC01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B43212BB5A50052CC01 /* main.m */; };
 		533C2B4E212BB5A50052CC01 /* SKKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B4D212BB5A50052CC01 /* SKKitTests.m */; };
 		533C2B59212BB5A50052CC01 /* SKKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B58212BB5A50052CC01 /* SKKitUITests.m */; };
+		533C2B89212BB6030052CC01 /* NSObject+aop.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B7C212BB6030052CC01 /* NSObject+aop.m */; };
+		533C2B8A212BB6030052CC01 /* UITextField+aop.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B7E212BB6030052CC01 /* UITextField+aop.m */; };
+		533C2B8B212BB6030052CC01 /* NSObject+idTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B81212BB6030052CC01 /* NSObject+idTag.m */; };
+		533C2B8C212BB6030052CC01 /* UIApplication+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B83212BB6030052CC01 /* UIApplication+helper.m */; };
+		533C2B8D212BB6030052CC01 /* UIView+viewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B86212BB6030052CC01 /* UIView+viewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,19 @@
 		533C2B54212BB5A50052CC01 /* SKKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		533C2B58212BB5A50052CC01 /* SKKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKKitUITests.m; sourceTree = "<group>"; };
 		533C2B5A212BB5A50052CC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533C2B7B212BB6030052CC01 /* NSObject+aop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+aop.h"; sourceTree = "<group>"; };
+		533C2B7C212BB6030052CC01 /* NSObject+aop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+aop.m"; sourceTree = "<group>"; };
+		533C2B7D212BB6030052CC01 /* UITextField+aop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+aop.h"; sourceTree = "<group>"; };
+		533C2B7E212BB6030052CC01 /* UITextField+aop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+aop.m"; sourceTree = "<group>"; };
+		533C2B80212BB6030052CC01 /* NSObject+idTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+idTag.h"; sourceTree = "<group>"; };
+		533C2B81212BB6030052CC01 /* NSObject+idTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+idTag.m"; sourceTree = "<group>"; };
+		533C2B82212BB6030052CC01 /* UIApplication+helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+helper.h"; sourceTree = "<group>"; };
+		533C2B83212BB6030052CC01 /* UIApplication+helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+helper.m"; sourceTree = "<group>"; };
+		533C2B85212BB6030052CC01 /* UIView+viewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+viewController.h"; sourceTree = "<group>"; };
+		533C2B86212BB6030052CC01 /* UIView+viewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+viewController.m"; sourceTree = "<group>"; };
+		533C2B88212BB6030052CC01 /* Pdcu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pdcu.h; sourceTree = "<group>"; };
+		533C2B8E212BEBC80052CC01 /* SKKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKKit.h; sourceTree = "<group>"; };
+		533C2B8F212BEBFB0052CC01 /* SKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCategory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,7 @@
 		533C2B33212BB5A40052CC01 /* SKKit */ = {
 			isa = PBXGroup;
 			children = (
+				533C2B78212BB6030052CC01 /* Sources */,
 				533C2B34212BB5A40052CC01 /* AppDelegate.h */,
 				533C2B35212BB5A40052CC01 /* AppDelegate.m */,
 				533C2B37212BB5A40052CC01 /* ViewController.h */,
@@ -130,6 +149,66 @@
 				533C2B5A212BB5A50052CC01 /* Info.plist */,
 			);
 			path = SKKitUITests;
+			sourceTree = "<group>";
+		};
+		533C2B78212BB6030052CC01 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				533C2B79212BB6030052CC01 /* Category */,
+				533C2B87212BB6030052CC01 /* Pdcu */,
+				533C2B8E212BEBC80052CC01 /* SKKit.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		533C2B79212BB6030052CC01 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				533C2B7A212BB6030052CC01 /* aop */,
+				533C2B7F212BB6030052CC01 /* Object */,
+				533C2B84212BB6030052CC01 /* View */,
+				533C2B8F212BEBFB0052CC01 /* SKCategory.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		533C2B7A212BB6030052CC01 /* aop */ = {
+			isa = PBXGroup;
+			children = (
+				533C2B7B212BB6030052CC01 /* NSObject+aop.h */,
+				533C2B7C212BB6030052CC01 /* NSObject+aop.m */,
+				533C2B7D212BB6030052CC01 /* UITextField+aop.h */,
+				533C2B7E212BB6030052CC01 /* UITextField+aop.m */,
+			);
+			path = aop;
+			sourceTree = "<group>";
+		};
+		533C2B7F212BB6030052CC01 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				533C2B80212BB6030052CC01 /* NSObject+idTag.h */,
+				533C2B81212BB6030052CC01 /* NSObject+idTag.m */,
+				533C2B82212BB6030052CC01 /* UIApplication+helper.h */,
+				533C2B83212BB6030052CC01 /* UIApplication+helper.m */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		533C2B84212BB6030052CC01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				533C2B85212BB6030052CC01 /* UIView+viewController.h */,
+				533C2B86212BB6030052CC01 /* UIView+viewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		533C2B87212BB6030052CC01 /* Pdcu */ = {
+			isa = PBXGroup;
+			children = (
+				533C2B88212BB6030052CC01 /* Pdcu.h */,
+			);
+			path = Pdcu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +341,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533C2B8C212BB6030052CC01 /* UIApplication+helper.m in Sources */,
+				533C2B89212BB6030052CC01 /* NSObject+aop.m in Sources */,
 				533C2B39212BB5A40052CC01 /* ViewController.m in Sources */,
+				533C2B8A212BB6030052CC01 /* UITextField+aop.m in Sources */,
+				533C2B8B212BB6030052CC01 /* NSObject+idTag.m in Sources */,
+				533C2B8D212BB6030052CC01 /* UIView+viewController.m in Sources */,
 				533C2B44212BB5A50052CC01 /* main.m in Sources */,
 				533C2B36212BB5A40052CC01 /* AppDelegate.m in Sources */,
 			);
@@ -433,7 +517,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SKKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,6 +526,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -449,7 +535,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SKKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +544,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SKKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
