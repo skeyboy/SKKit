@@ -20,6 +20,7 @@
 		533C2B8B212BB6030052CC01 /* NSObject+idTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B81212BB6030052CC01 /* NSObject+idTag.m */; };
 		533C2B8C212BB6030052CC01 /* UIApplication+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B83212BB6030052CC01 /* UIApplication+helper.m */; };
 		533C2B8D212BB6030052CC01 /* UIView+viewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B86212BB6030052CC01 /* UIView+viewController.m */; };
+		533C2B92212BF02F0052CC01 /* UIView+alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B91212BF02F0052CC01 /* UIView+alert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		533C2B88212BB6030052CC01 /* Pdcu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pdcu.h; sourceTree = "<group>"; };
 		533C2B8E212BEBC80052CC01 /* SKKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKKit.h; sourceTree = "<group>"; };
 		533C2B8F212BEBFB0052CC01 /* SKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCategory.h; sourceTree = "<group>"; };
+		533C2B90212BF02F0052CC01 /* UIView+alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+alert.h"; sourceTree = "<group>"; };
+		533C2B91212BF02F0052CC01 /* UIView+alert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+alert.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +202,8 @@
 			children = (
 				533C2B85212BB6030052CC01 /* UIView+viewController.h */,
 				533C2B86212BB6030052CC01 /* UIView+viewController.m */,
+				533C2B90212BF02F0052CC01 /* UIView+alert.h */,
+				533C2B91212BF02F0052CC01 /* UIView+alert.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -342,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				533C2B8C212BB6030052CC01 /* UIApplication+helper.m in Sources */,
+				533C2B92212BF02F0052CC01 /* UIView+alert.m in Sources */,
 				533C2B89212BB6030052CC01 /* NSObject+aop.m in Sources */,
 				533C2B39212BB5A40052CC01 /* ViewController.m in Sources */,
 				533C2B8A212BB6030052CC01 /* UITextField+aop.m in Sources */,
