@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23AC1C7A8AF5242F1797893E /* libPods-SKKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB3360CDC2BAB5A8A2CFAE1 /* libPods-SKKitUITests.a */; };
 		533C2B36212BB5A40052CC01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B35212BB5A40052CC01 /* AppDelegate.m */; };
 		533C2B39212BB5A40052CC01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B38212BB5A40052CC01 /* ViewController.m */; };
 		533C2B3C212BB5A40052CC01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533C2B3A212BB5A40052CC01 /* Main.storyboard */; };
@@ -20,7 +21,8 @@
 		533C2B8B212BB6030052CC01 /* NSObject+idTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B81212BB6030052CC01 /* NSObject+idTag.m */; };
 		533C2B8C212BB6030052CC01 /* UIApplication+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B83212BB6030052CC01 /* UIApplication+helper.m */; };
 		533C2B8D212BB6030052CC01 /* UIView+viewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B86212BB6030052CC01 /* UIView+viewController.m */; };
-		533C2B92212BF02F0052CC01 /* UIView+alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 533C2B91212BF02F0052CC01 /* UIView+alert.m */; };
+		CB9D8E19842EF92BBB4A45AA /* libPods-SKKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3204B2FCF2AC3301019282 /* libPods-SKKitTests.a */; };
+		EAA8C4025583A6ADA1D5C35E /* libPods-SKKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8953115AAB046EA6F4F3B9CB /* libPods-SKKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A91EEAFFC46B31A1E30BB40 /* Pods-SKKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKKit/Pods-SKKit.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB3360CDC2BAB5A8A2CFAE1 /* libPods-SKKitUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKKitUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		533C2B31212BB5A40052CC01 /* SKKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		533C2B34212BB5A40052CC01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		533C2B35212BB5A40052CC01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,8 +74,13 @@
 		533C2B88212BB6030052CC01 /* Pdcu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pdcu.h; sourceTree = "<group>"; };
 		533C2B8E212BEBC80052CC01 /* SKKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKKit.h; sourceTree = "<group>"; };
 		533C2B8F212BEBFB0052CC01 /* SKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCategory.h; sourceTree = "<group>"; };
-		533C2B90212BF02F0052CC01 /* UIView+alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+alert.h"; sourceTree = "<group>"; };
-		533C2B91212BF02F0052CC01 /* UIView+alert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+alert.m"; sourceTree = "<group>"; };
+		5CA5E0B28CBC2CEC1FF23B2B /* Pods-SKKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKKitTests/Pods-SKKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8953115AAB046EA6F4F3B9CB /* libPods-SKKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D91C90747034E52CF2D6D7C /* Pods-SKKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKKitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKKitUITests/Pods-SKKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DA2C889C384CE794A4690C3 /* Pods-SKKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKKitTests/Pods-SKKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6C49B5D2FF4A67C2958D8B2 /* Pods-SKKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKKit/Pods-SKKit.release.xcconfig"; sourceTree = "<group>"; };
+		CC3204B2FCF2AC3301019282 /* libPods-SKKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7FE6A72F8CA909DED99230 /* Pods-SKKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKKitUITests/Pods-SKKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA8C4025583A6ADA1D5C35E /* libPods-SKKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9D8E19842EF92BBB4A45AA /* libPods-SKKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AC1C7A8AF5242F1797893E /* libPods-SKKitUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4432BA64AF8DC9F321934675 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A91EEAFFC46B31A1E30BB40 /* Pods-SKKit.debug.xcconfig */,
+				C6C49B5D2FF4A67C2958D8B2 /* Pods-SKKit.release.xcconfig */,
+				5CA5E0B28CBC2CEC1FF23B2B /* Pods-SKKitTests.debug.xcconfig */,
+				8DA2C889C384CE794A4690C3 /* Pods-SKKitTests.release.xcconfig */,
+				DA7FE6A72F8CA909DED99230 /* Pods-SKKitUITests.debug.xcconfig */,
+				8D91C90747034E52CF2D6D7C /* Pods-SKKitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		533C2B28212BB5A40052CC01 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +131,8 @@
 				533C2B4C212BB5A50052CC01 /* SKKitTests */,
 				533C2B57212BB5A50052CC01 /* SKKitUITests */,
 				533C2B32212BB5A40052CC01 /* Products */,
+				4432BA64AF8DC9F321934675 /* Pods */,
+				5CDEFB0FBCFF29A487D1373F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,8 +229,6 @@
 			children = (
 				533C2B85212BB6030052CC01 /* UIView+viewController.h */,
 				533C2B86212BB6030052CC01 /* UIView+viewController.m */,
-				533C2B90212BF02F0052CC01 /* UIView+alert.h */,
-				533C2B91212BF02F0052CC01 /* UIView+alert.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,6 +241,16 @@
 			path = Pdcu;
 			sourceTree = "<group>";
 		};
+		5CDEFB0FBCFF29A487D1373F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8953115AAB046EA6F4F3B9CB /* libPods-SKKit.a */,
+				CC3204B2FCF2AC3301019282 /* libPods-SKKitTests.a */,
+				2AB3360CDC2BAB5A8A2CFAE1 /* libPods-SKKitUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 533C2B5D212BB5A50052CC01 /* Build configuration list for PBXNativeTarget "SKKit" */;
 			buildPhases = (
+				707C570FF4A2AD3C95DDDC8E /* [CP] Check Pods Manifest.lock */,
 				533C2B2D212BB5A40052CC01 /* Sources */,
 				533C2B2E212BB5A40052CC01 /* Frameworks */,
 				533C2B2F212BB5A40052CC01 /* Resources */,
@@ -240,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 533C2B60212BB5A50052CC01 /* Build configuration list for PBXNativeTarget "SKKitTests" */;
 			buildPhases = (
+				4C0921795AB2178B6F119D62 /* [CP] Check Pods Manifest.lock */,
 				533C2B45212BB5A50052CC01 /* Sources */,
 				533C2B46212BB5A50052CC01 /* Frameworks */,
 				533C2B47212BB5A50052CC01 /* Resources */,
@@ -258,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 533C2B63212BB5A50052CC01 /* Build configuration list for PBXNativeTarget "SKKitUITests" */;
 			buildPhases = (
+				779FCD2D895F9F7958C67DF5 /* [CP] Check Pods Manifest.lock */,
 				533C2B50212BB5A50052CC01 /* Sources */,
 				533C2B51212BB5A50052CC01 /* Frameworks */,
 				533C2B52212BB5A50052CC01 /* Resources */,
@@ -341,13 +379,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C0921795AB2178B6F119D62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707C570FF4A2AD3C95DDDC8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		779FCD2D895F9F7958C67DF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		533C2B2D212BB5A40052CC01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				533C2B8C212BB6030052CC01 /* UIApplication+helper.m in Sources */,
-				533C2B92212BF02F0052CC01 /* UIView+alert.m in Sources */,
 				533C2B89212BB6030052CC01 /* NSObject+aop.m in Sources */,
 				533C2B39212BB5A40052CC01 /* ViewController.m in Sources */,
 				533C2B8A212BB6030052CC01 /* UITextField+aop.m in Sources */,
@@ -521,6 +615,7 @@
 		};
 		533C2B5E212BB5A50052CC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A91EEAFFC46B31A1E30BB40 /* Pods-SKKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -539,6 +634,7 @@
 		};
 		533C2B5F212BB5A50052CC01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C49B5D2FF4A67C2958D8B2 /* Pods-SKKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -557,6 +653,7 @@
 		};
 		533C2B61212BB5A50052CC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA5E0B28CBC2CEC1FF23B2B /* Pods-SKKitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -575,6 +672,7 @@
 		};
 		533C2B62212BB5A50052CC01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA2C889C384CE794A4690C3 /* Pods-SKKitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +691,7 @@
 		};
 		533C2B64212BB5A50052CC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7FE6A72F8CA909DED99230 /* Pods-SKKitUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SKKitUITests/Info.plist;
@@ -610,6 +709,7 @@
 		};
 		533C2B65212BB5A50052CC01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D91C90747034E52CF2D6D7C /* Pods-SKKitUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SKKitUITests/Info.plist;
